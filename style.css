@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.task-container {
+    background-color: #0d708d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 6px 0px rgb(55 74 80);
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.completed-task {
+    text-decoration: line-through;
+}
+
+button {
+    background-color: #ff6464;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff4848;
+}
+.fas .fa-plus{
+    margin-right: 8px;
+    font-size: 1.1rem;
+}
+.fas .fa-tasks{
+    margin-right: 8px;
+    font-size: 1.4rem;
+}
